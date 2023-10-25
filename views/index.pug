@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title My Blog
+  body
+    h1 My Blog
+    each post in posts
+      h2= post.title
+      p= post.content
+    p
+      a(href='/rss') RSS Feed

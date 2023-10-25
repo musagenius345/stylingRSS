@@ -1,0 +1,18 @@
+{
+  "name": "rss",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": " <musabadru@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
+    "rss": "^1.2.2"
+  }
+}
